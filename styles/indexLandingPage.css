@@ -42,6 +42,12 @@ li:hover {
     cursor: pointer;
 }
 
+.active {
+    color:#64d810;
+    cursor: default;
+    
+}
+
 h6 {
     font-family: 'Merriweather', serif;
     font-size: 40px;
@@ -94,7 +100,7 @@ button:hover {
     margin-left: 50px;
 }
 
-.join, .getStarted:hover {
+.join:hover, .getStarted:hover {
     color: #64d810;
     cursor: pointer;
 }
@@ -226,7 +232,7 @@ footer {
     background-color: white; 
 }
 
- i {
+i {
     font-size: 30px;
     padding: 10px;
 }
