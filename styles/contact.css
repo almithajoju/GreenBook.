@@ -7,6 +7,10 @@ body {
     width: 100%; 
 }
 
+main { 
+    display: flex;
+    justify-content: center;
+}
 nav {
     display: flex;
     flex-direction: row;
@@ -48,6 +52,41 @@ li a.active  {
     
 }
 
+label {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #595959;
+}
+
+input {
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #c1ef9fff;
+    background-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    font-family: 'Inter', sans-serif;
+    font-size: 19px;
+    color: #595959;
+}
+
+textarea {
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #c1ef9fff;
+    background-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    font-family: 'Inter', sans-serif;
+    font-size: 19px;
+    color: #595959;
+}
+
 h6 {
     font-family: 'Merriweather', serif;
     font-size: 40px;
@@ -55,15 +94,22 @@ h6 {
     padding-left: 50px;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
+.label-and-input {
+    margin: 40px;
 }
 
-.button1 {
+.message {
+    /* Här vill jag ordna en större ruta för att kunna se vad man skriver. */
+}
+.container {
     display: flex;
-    flex-direction: row;
-    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    text-align: right;
+    width: 40%;
+    background:  white;
+    margin: 30px;
+    border-radius: 5px;
 }
 
 
@@ -123,7 +169,7 @@ h2 {
     padding-left: 50px;
 }
 
-h3{
+h3 {
     font-family: 'Inter', sans-serif;
     font-weight: 300;
     font-size: 32px;
