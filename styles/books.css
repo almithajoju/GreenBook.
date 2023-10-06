@@ -70,7 +70,7 @@ h6 {
 .button{
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content: center;
 }
 
 button {
@@ -135,7 +135,7 @@ button:hover {
     margin-top: 40px;
 }
 
-.recently-swappedbooks  {
+.recently-swappedbooks , .new-swap  {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -188,3 +188,25 @@ hr{
 /* .new-swap img{
         height: 300px;
 } */
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: white; 
+}
+
+i {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.fa-brands:hover {
+    color: #64d810;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease-out;
+    cursor: pointer;
+}
