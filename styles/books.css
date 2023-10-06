@@ -114,3 +114,11 @@ button:hover {
 .signIn {
     background-color: white;
 }
+
+/* gallery */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px; 
+}
