@@ -177,3 +177,14 @@ h5:hover {
     transition-timing-function: ease-out;
     cursor: pointer;
 }
+
+
+hr{
+    border: 3px solid #595959;
+    width: 800px;
+    height: 1px;
+}
+
+/* .new-swap img{
+        height: 300px;
+} */
