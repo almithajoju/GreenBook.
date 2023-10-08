@@ -244,3 +244,25 @@ i {
     transition-timing-function: ease-out;
     cursor: pointer;
 }
+
+footer li {
+    padding: 50px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #595959;
+}
+
+footer li:hover {
+    color: #64d810;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease-out;
+    cursor: pointer;
+}
+
+footer li.active  {
+    color:#64d810;
+    cursor: default;
+    
+}
