@@ -1,0 +1,212 @@
+
+body {
+    background-color: #b8bac8ff;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    margin: 0 auto;
+    min-height: 100vh;
+    width: 100%; 
+}
+
+/* NavBar */
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 50px;
+    height: 100px;
+    overflow: hidden;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+    list-style: none;
+}
+
+li a {
+    padding: 50px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #595959;
+}
+
+li a:hover {
+    color: #64d810;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease-out;
+    cursor: pointer;
+}
+
+li a.active  {
+    color:#64d810;
+    cursor: default;   
+}
+
+h6 {
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    color: #64d810;
+    padding-left: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons  {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+button {
+    background-color: #b8bac8ff;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #c1ef9fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    margin: 20px;
+    color: #595959;
+    max-width: 250px;
+    min-width: 150px;
+    height: 70px;
+} 
+
+button:hover {
+    background-color: #c1ef9fff;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease-out;
+    cursor: pointer;
+}
+
+.join {
+    color: #595959;
+}
+
+.join {
+    background-color: #c1ef9fff;
+    margin-left: 50px;
+}
+
+.join:hover {
+    color: #64d810;
+    cursor: pointer;
+}
+
+.signIn {
+    background-color: white;
+}
+
+/* gallery */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px; 
+}
+
+.text{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    color: #595959;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.recently-swappedbooks , .new-swap  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+img {
+    height: 450px;
+}
+
+img:hover {
+    animation: pulse; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s; /* don't forget to set a duration! */
+    cursor: pointer;
+}
+
+h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    color: #595959;
+    font-weight: 400;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+h5 {
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    color: #46970b;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+h5:hover {
+    color: #64d810;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease-out;
+    cursor: pointer;
+}
+
+
+hr{
+    border: 3px solid #595959;
+    width: 800px;
+    height: 1px;
+}
+
+/* .new-swap img{
+        height: 300px;
+} */
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: white; 
+}
+
+i {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.fa-brands:hover {
+    color: #64d810;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease-out;
+    cursor: pointer;
+}
