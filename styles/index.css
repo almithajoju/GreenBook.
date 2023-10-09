@@ -27,7 +27,7 @@ ul {
 }
 
 li a {
-    padding: 50px;
+    padding: 40px;
     text-decoration: none;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
@@ -246,7 +246,7 @@ i {
 }
 
 footer li {
-    padding: 50px;
+    padding: 24px;
     text-decoration: none;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
