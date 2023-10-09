@@ -1,0 +1,239 @@
+body {
+    background-color: #b8bac8ff;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    margin: 0 auto;
+    min-height: 100vh;
+    width: 100%; 
+}
+
+/* NavBar */
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 50px;
+    height: 100px;
+    overflow: hidden;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+    list-style: none;
+}
+
+li a {
+    padding: 50px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #595959;
+}
+
+li a:hover {
+    color: #64d810;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease-out;
+    cursor: pointer;
+}
+
+li a.active  {
+    color:#64d810;
+    cursor: default;   
+}
+
+h6 {
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    color: #64d810;
+    padding-left: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+button {
+    background-color: #b8bac8ff;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #c1ef9fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    margin: 20px;
+    color: #595959;
+    max-width: 250px;
+    min-width: 150px;
+    height: 70px;
+} 
+
+button:hover {
+    background-color: #c1ef9fff;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease-out;
+    cursor: pointer;
+}
+
+.Offers {
+    color: #595959;
+}
+
+.join , .offers ,.wishes ,.swaps , .help , .back-button{
+    background-color: #c1ef9fff;
+    margin-left: 50px;
+}
+
+.join:hover {
+    color: #64d810;
+    cursor: pointer;
+}
+
+.signIn {
+    background-color: white;
+}
+
+.offers , .wishes ,.swaps , .help {
+    border-radius: 50px;
+}
+
+.offers:hover {
+    color: #64d810;
+    cursor: pointer;
+}
+.wishes:hover {
+    color: #64d810;
+    cursor: pointer;
+}
+.swaps:hover {
+    color: #64d810;
+    cursor: pointer;
+}
+.help:hover {
+    color: #64d810;
+    cursor: pointer;
+}
+
+hr{
+    border: 3px solid #595959;
+    width: 800px;
+    height: 1px;
+    justify-content: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-top: 60px;
+    margin-left: 300px;
+}
+
+.book-button{
+    margin-left: 50px;
+}
+
+.detials{
+    margin-left: 20px;
+}
+
+.detials h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    color: #595959;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.detials h5 {
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    color: #46970b;
+    font-weight: 600;
+}
+
+.detials h5:hover {
+    color: #64d810;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease-out;
+    cursor: pointer;
+}
+
+.detials p{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #595959;
+    font-weight: 400;
+    margin-right: 300px;
+}
+
+.back{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.back-button:hover {
+    color: #64d810;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: white; 
+}
+
+i {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.fa-brands:hover {
+    color: #64d810;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease-out;
+    cursor: pointer;
+}
+
+footer li {
+    padding: 24px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #595959;
+}
+
+footer li:hover {
+    color: #64d810;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease-out;
+    cursor: pointer;
+}
+
+footer li.active  {
+    color:#64d810;
+    cursor: default;
+    
+}
